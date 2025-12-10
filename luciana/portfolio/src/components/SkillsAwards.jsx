@@ -275,12 +275,6 @@ const SkillsAwards = () => {
                   issuer: 'Stetson University',
                   date: 'Legal Training',
                   description: 'Participated in mock trial program, gaining practical experience in courtroom procedures, legal argumentation, and professional legal conduct'
-                },
-                {
-                  name: 'Microsoft Office Specialist',
-                  issuer: 'Microsoft Certification',
-                  date: 'Professional Tools',
-                  description: 'Certified in Microsoft Office suite proficiency, essential for legal document preparation, financial analysis, and professional communication'
                 }
               ].map((cert, index) => (
                 <div
