@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
+import { Linkedin, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -100,9 +100,8 @@ const Footer = () => {
         >
           <div className="text-gray-400 text-sm text-center md:text-left">
             <p className="flex items-center justify-center md:justify-start gap-2">
-              &copy; {currentYear} Luciana's Portfolio. Made with
-              <Heart className="w-4 h-4 text-gold-400 fill-gold-400" />
-              and React.
+              &copy; {currentYear} Luciana's Portfolio. 
+              
             </p>
             <p className="mt-2 text-xs">
               Aspiring Tax Attorney | Future FSU Student
@@ -111,8 +110,6 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <div className="text-gray-400 text-xs text-center">
-              <p>Built with React, Tailwind CSS, and Framer Motion</p>
-              <p className="mt-1">Last updated: December 2024</p>
             </div>
 
             <motion.button

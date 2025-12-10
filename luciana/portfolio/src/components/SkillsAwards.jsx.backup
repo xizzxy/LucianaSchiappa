@@ -128,12 +128,17 @@ const SkillsAwards = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mt-6 rounded-lg overflow-hidden border border-gold-400/20">
-                  <img
-                    src="/images/image 4.png"
-                    alt="FBLA Nationals - National Qualifier & Competitor"
-                    className="w-full h-64 object-cover"
-                  />
+                <div className="mt-6 bg-navy-700/50 rounded-lg overflow-hidden border border-gold-400/20 h-48">
+                  <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy-700 to-navy-800">
+                    <div className="text-center">
+                      <div className="text-gold-400 mb-2">
+                        <Trophy className="w-12 h-12 mx-auto" />
+                      </div>
+                      <p className="text-gray-300 font-semibold mb-1">FBLA Nationals</p>
+                      <p className="text-gray-400 text-sm px-4">National Qualifier & Competitor</p>
+                      <p className="text-gray-500 text-xs mt-2">Image: /images/image 4.png</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -157,12 +162,17 @@ const SkillsAwards = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mt-6 rounded-lg overflow-hidden border border-gold-400/20">
-                  <img
-                    src="/images/image 5.png"
-                    alt="FBLA State Competition - 3rd Place Client Service"
-                    className="w-full h-64 object-cover"
-                  />
+                <div className="mt-6 bg-navy-700/50 rounded-lg overflow-hidden border border-gold-400/20 h-48">
+                  <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy-700 to-navy-800">
+                    <div className="text-center">
+                      <div className="text-gold-400 mb-2">
+                        <Medal className="w-12 h-12 mx-auto" />
+                      </div>
+                      <p className="text-gray-300 font-semibold mb-1">State Competition</p>
+                      <p className="text-gray-400 text-sm px-4">3rd Place - Client Service</p>
+                      <p className="text-gray-500 text-xs mt-2">Image: /images/image 5.png</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 

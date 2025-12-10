@@ -186,7 +186,7 @@ const EducationExperience = () => {
                   <div className="md:col-span-1">
                     <div className="bg-navy-700/50 rounded-lg overflow-hidden border border-gold-400/20">
                       <img
-                        src="/images/Image 2. Internship.png"
+                        src="/images/Image 2.Internship.png"
                         alt="CliftonLarsonAllen Internship - Top 10 U.S. Accounting Firm"
                         className="w-full h-full object-cover"
                       />
@@ -259,7 +259,7 @@ const EducationExperience = () => {
                   <div className="md:col-span-1">
                     <div className="bg-navy-700/50 rounded-lg overflow-hidden border border-gold-400/20">
                       <img
-                        src="/images/Image 3. Member spotlight.png"
+                        src="/images/Image 3.Member spotlight.png"
                         alt="FBLA Member Spotlight - First & Only Featured Member"
                         className="w-full h-full object-cover"
                       />
