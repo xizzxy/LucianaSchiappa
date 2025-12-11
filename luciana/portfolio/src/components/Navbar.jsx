@@ -52,7 +52,7 @@ const Navbar = () => {
               </a>
             ))}
             <motion.a
-              href="https://onedrive.live.com/personal/af53e3bf91971958/_layouts/15/Doc.aspx?sourcedoc=%7Bae392238-be62-4009-a942-e429bd162c38%7D&action=default"
+              href="/resume/Luciana Schiappa Castro Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-navy-700 text-white rounded-lg hover:bg-navy-800 transition-colors"
@@ -89,7 +89,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://onedrive.live.com/personal/af53e3bf91971958/_layouts/15/Doc.aspx?sourcedoc=%7Bae392238-be62-4009-a942-e429bd162c38%7D&action=default"
+              href="/resume/Luciana Schiappa Castro Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block mx-4 mt-3 px-4 py-3 bg-navy-700 text-white text-center rounded-lg"

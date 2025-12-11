@@ -61,7 +61,7 @@ const Hero = () => {
                   View My Work
                 </motion.a>
                 <motion.a
-                  href="https://onedrive.live.com/personal/af53e3bf91971958/_layouts/15/Doc.aspx?sourcedoc=%7Bae392238-be62-4009-a942-e429bd162c38%7D&action=default"
+                  href="/resume/Luciana Schiappa Castro Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 border-2 border-navy-700 text-navy-700 rounded-lg font-medium hover:bg-navy-50 transition-colors"

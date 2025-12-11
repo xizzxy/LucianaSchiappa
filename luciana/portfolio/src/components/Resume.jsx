@@ -80,7 +80,7 @@ const Resume = () => {
             A visual overview of my experience, leadership, and recognitions
           </p>
           <motion.a
-            href="https://onedrive.live.com/personal/af53e3bf91971958/_layouts/15/Doc.aspx?sourcedoc=%7Bae392238-be62-4009-a942-e429bd162c38%7D&action=default"
+            href="/resume/Luciana Schiappa Castro Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-navy-700 text-white rounded-lg font-medium hover:bg-navy-800 transition-colors"
@@ -88,7 +88,7 @@ const Resume = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FileText size={20} />
-            View Full Resume 
+            View Full Resume
           </motion.a>
         </motion.div>
 
