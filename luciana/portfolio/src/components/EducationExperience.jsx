@@ -157,7 +157,6 @@ const EducationExperience = () => {
                       {[
                         'Gained hands-on experience with financial documents and tax-related tasks',
                         'Worked alongside tax professionals on client documentation',
-                        'Developed understanding of tax compliance and financial reporting',
                         'Spearheaded 10.4k+ item donation drive, coordinating logistics and community outreach'
                       ].map((responsibility, index) => (
                         <li key={index} className="flex items-start gap-3 text-gray-300">
@@ -171,9 +170,7 @@ const EducationExperience = () => {
                     <ul className="space-y-2">
                       {[
                         'Financial document analysis and attention to detail',
-                        'Understanding of tax compliance procedures',
-                        'Professional communication with clients and team members',
-                        'Experience in a top-tier professional services environment'
+                        'Understanding of tax compliance procedures'
                       ].map((skill, index) => (
                         <li key={index} className="flex items-start gap-3 text-gray-300">
                           <span className="text-gold-400 mt-1">•</span>
@@ -223,30 +220,13 @@ const EducationExperience = () => {
                       </div>
                     </div>
 
-                    <h5 className="text-lg font-semibold text-white mb-3">Business & Finance Leadership</h5>
-                    <ul className="space-y-2 mb-4">
-                      {[
-                        'Active participant in business competitions and leadership conferences',
-                        'Competed at state and national levels in various business events',
-                        'Developed professional skills in client service and business communication',
-                        'First and only member to be featured in chapter member spotlight',
-                        'Built network with business professionals and student leaders'
-                      ].map((responsibility, index) => (
-                        <li key={index} className="flex items-start gap-3 text-gray-300">
-                          <span className="text-gold-400 mt-1">•</span>
-                          <span>{responsibility}</span>
-                        </li>
-                      ))}
-                    </ul>
-
                     <h5 className="text-lg font-semibold text-white mb-3">Skills for Tax Law Career</h5>
                     <ul className="space-y-2">
                       {[
-                        'Business acumen and understanding of financial operations',
                         'Professional communication and client relations',
                         'Financial literacy and economic analysis',
                         'Experience presenting complex information clearly',
-                        'Leadership and collaboration in professional settings'
+                        'Leadership and collaboration in professional setting'
                       ].map((skill, index) => (
                         <li key={index} className="flex items-start gap-3 text-gray-300">
                           <span className="text-gold-400 mt-1">•</span>
@@ -265,7 +245,7 @@ const EducationExperience = () => {
                       />
                     </div>
                     <p className="text-gray-400 text-sm text-center mt-3">
-                      Member Spotlight - First & Only Featured Member
+                      Member Spotlight - First & Only Featured Member [Note: Placeholder to change photo]
                     </p>
                   </div>
                 </div>

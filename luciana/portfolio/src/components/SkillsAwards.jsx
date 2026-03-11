@@ -59,46 +59,6 @@ const SkillsAwards = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-gold-400 to-gold-600 mx-auto"></div>
           </motion.div>
 
-          {/* Skills Section */}
-          <motion.div variants={itemVariants} className="mb-16">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="bg-gold-400/10 p-3 rounded-lg">
-                <Star className="w-6 h-6 text-gold-400" />
-              </div>
-              <h3 className="text-3xl font-bold text-white">Key Skills for Tax Law</h3>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {Object.entries(skills).map(([category, skillList], categoryIndex) => (
-                <div
-                  key={categoryIndex}
-                  className="bg-navy-800/50 backdrop-blur-sm rounded-xl p-6 border border-gold-400/20 hover:border-gold-400/40 transition-all duration-300"
-                >
-                  <h4 className="text-xl font-bold text-gold-400 mb-6">{category}</h4>
-                  <div className="space-y-4">
-                    {skillList.map((skill, index) => (
-                      <div key={index}>
-                        <div className="flex justify-between mb-2">
-                          <span className="text-white font-medium">{skill.name}</span>
-                          <span className="text-gold-400 text-sm">{skill.level}%</span>
-                        </div>
-                        <div className="w-full bg-navy-700 rounded-full h-2 overflow-hidden">
-                          <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: `${skill.level}%` }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 1, delay: index * 0.1 }}
-                            className="h-full bg-gradient-to-r from-gold-400 to-gold-600"
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
           {/* Awards Section */}
           <motion.div variants={itemVariants} className="mb-16">
             <div className="flex items-center gap-3 mb-8">
@@ -132,35 +92,6 @@ const SkillsAwards = () => {
                   <img
                     src="/images/image 4.png"
                     alt="FBLA Nationals - National Qualifier & Competitor"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-              </div>
-
-              {/* Award 2 - State Competition */}
-              <div className="bg-navy-800/50 backdrop-blur-sm rounded-xl p-8 border border-gold-400/20 hover:border-gold-400/40 transition-all duration-300">
-                <div className="flex items-start gap-4">
-                  <div className="bg-gold-400/10 p-3 rounded-lg">
-                    <Medal className="w-6 h-6 text-gold-400" />
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl font-bold text-white mb-2">
-                      3rd Place - Client Service Event
-                    </h4>
-                    <p className="text-gold-400 mb-3">FBLA State Competition</p>
-                    <p className="text-gray-300 mb-3">State Leadership Conference</p>
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      Earned 3rd place at the state level in Client Service competitive event.
-                      This achievement showcases strong client communication skills, professional
-                      demeanor, and ability to solve complex business problems - all essential
-                      skills for a successful tax attorney career.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-6 rounded-lg overflow-hidden border border-gold-400/20">
-                  <img
-                    src="/images/image 5.png"
-                    alt="FBLA State Competition - 3rd Place Client Service"
                     className="w-full h-64 object-cover"
                   />
                 </div>
