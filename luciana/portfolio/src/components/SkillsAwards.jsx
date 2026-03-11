@@ -54,7 +54,7 @@ const SkillsAwards = () => {
           {/* Header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Skills & <span className="text-gold-400">Achievements</span>
+              <span className="text-gold-400">Achievements</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-gold-400 to-gold-600 mx-auto"></div>
           </motion.div>
