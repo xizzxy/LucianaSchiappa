@@ -245,7 +245,7 @@ const EducationExperience = () => {
                       />
                     </div>
                     <p className="text-gray-400 text-sm text-center mt-3">
-                      Member Spotlight - First & Only Featured Member [Note: Placeholder to change photo]
+                      Member Spotlight - First & Only Featured Member
                     </p>
                   </div>
                 </div>
